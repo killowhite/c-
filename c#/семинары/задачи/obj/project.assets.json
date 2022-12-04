@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1s\\Desktop\\c#praktika\\praktika 29.11\\c#\\семинары\\задачи\\задачи.csproj",
+      "projectUniqueName": "C:\\Users\\1s\\Desktop\\обучение C#\\c-\\c#\\семинары\\задачи\\задачи.csproj",
       "projectName": "задачи",
-      "projectPath": "C:\\Users\\1s\\Desktop\\c#praktika\\praktika 29.11\\c#\\семинары\\задачи\\задачи.csproj",
+      "projectPath": "C:\\Users\\1s\\Desktop\\обучение C#\\c-\\c#\\семинары\\задачи\\задачи.csproj",
       "packagesPath": "C:\\Users\\1s\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1s\\Desktop\\c#praktika\\praktika 29.11\\c#\\семинары\\задачи\\obj\\",
+      "outputPath": "C:\\Users\\1s\\Desktop\\обучение C#\\c-\\c#\\семинары\\задачи\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\1s\\AppData\\Roaming\\NuGet\\NuGet.Config",
