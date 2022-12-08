@@ -39,7 +39,7 @@ Cub(num); */
 
 //Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
 
-Console.WriteLine("Введите пятизначное число");
+/* Console.WriteLine("Введите пятизначное число");
 int num = Convert.ToInt32(Console.ReadLine());
 string numTxt = Convert.ToString(num);
 
@@ -48,4 +48,4 @@ if(numTxt[0] == numTxt[4] && numTxt[1] == numTxt[3] ){
 }
 else{
     Console.WriteLine("не палиндром");
-}
+}*/
