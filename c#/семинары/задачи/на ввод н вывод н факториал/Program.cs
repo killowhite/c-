@@ -1,9 +1,13 @@
 ﻿// принимает н выдает н факториал
-int facktorial(int num){
+ int facktorial(int num){
     int f = 1;
-    while(num>1){
+    /*while(num>1){
         f *=num;
         num--;
+    }*/
+    for(int i =2; i<= num; i++)
+    {
+        f*=i;
     }
 return f;
 }
