@@ -46,20 +46,29 @@ Console.WriteLine("Сумма " + sumNumber);*/
 
 // Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
 
-int[] GreateArray(int size,int minValue, int maxValue)
+int[] GreateArray(int minValue, int maxValue)
 {
-  int[] array = new int[size];
-  for(int i = 0; i < size; i++)
+  int[] array = new int[8];
+  for(int i = 0; i < 8; i++)
   {
     array[i] = new Random().Next(minValue, maxValue +1);
   }
   return array;
 }
 
-void ShowArray(int[]array
+void ShowArray(int[]array)
 {
   for(int i = 0; i < array.Length; i++)
   {
 Console.WriteLine($"array[{i +1}] is {array[i]}");
   }
-})
+}
+
+
+Console.WriteLine("Введитее минимальное значение");
+int min = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите максимальное значение");
+int max = Convert.ToInt32(Console.ReadLine());
+
+int[] myArray = GreateArray(min, max);
+ShowArray(myArray);
